@@ -11,8 +11,8 @@ Source0:        https://github.com/zeromq/libzmq/releases/download/v%{version}/z
 
 BuildRequires:  mingw32-filesystem
 BuildRequires:  mingw64-filesystem
-BuildRequires:  mingw32-gcc
-BuildRequires:  mingw64-gcc
+BuildRequires:  mingw32-gcc-c++
+BuildRequires:  mingw64-gcc-c++
 BuildRequires:  mingw32-libsodium
 BuildRequires:  mingw64-libsodium
 
